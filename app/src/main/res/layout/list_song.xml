@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/song_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="serif"
+        android:textSize="14sp"
+        tools:text="Baieti Buni" />
+
+    <TextView
+        android:id="@+id/song_artist_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/song_title_text_view"
+        android:fontFamily="@font/stalinist_one"
+        android:textSize="14sp"
+        tools:text="BUG Mafia" />
+
+    <TextView
+        android:id="@+id/genre_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/song_title_text_view"
+        android:fontFamily="@font/trade_winds"
+        android:textSize="16sp"
+        tools:text="Hip-Hop" />
+
+</RelativeLayout>

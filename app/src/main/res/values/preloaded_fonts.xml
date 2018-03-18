@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/artifika</item>
+        <item>@font/rubik_mono_one</item>
+        <item>@font/stalinist_one</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>
